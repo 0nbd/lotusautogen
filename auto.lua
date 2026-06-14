@@ -14,9 +14,9 @@ local lp = Players.LocalPlayer
 getgenv().lotusconf = {
     autogen_tp = true,
     promptdelay = 0.05,
-    puzzles_completed = 3,       
-    max_players = 10,         
-    min_round_time = 60,              
+    puzzles_completed = 15,       
+    max_players = 2,         
+    min_round_time = 120,              
 }
 
 local completedPuzzlesInServer = 0
