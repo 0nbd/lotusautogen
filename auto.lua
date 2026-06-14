@@ -1,5 +1,6 @@
-if queue_on_teleport then
-    queue_on_teleport([[loadstring(game:HttpGet('https://raw.githubusercontent.com/0nbd/lotusautogen/refs/heads/main/auto.lua'))()]])
+local queue_on_tp = queue_on_teleport or queueonteleport
+if queue_on_tp then
+    queue_on_tp([[loadstring(game:HttpGet('https://raw.githubusercontent.com/0nbd/lotusautogen/refs/heads/main/auto.lua'))()]])
 end
 
 local Players = game:GetService("Players")
